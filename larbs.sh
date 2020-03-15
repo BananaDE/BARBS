@@ -39,9 +39,7 @@ welcomemsg() { \
 	dialog --title "Welcome!" --msgbox "Welcome to the Banana Auto-Rice Bootstrapping Script!\\n\\nThis script will automatically install an experimental, riced Linux desktop.\\n\\n-BananaDE" 10 60
 	}
 
-selectdotfiles() { \
-	edition="default"
-	}
+edition="default"
 
 getuserandpass() { \
 	# Prompts user for new username an password.
@@ -166,7 +164,6 @@ installpkg dialog || error "Are you sure you're running this as the root user an
 
 # Welcome user and pick dotfiles.
 welcomemsg || error "User exited."
-selectdotfiles || error "User exited."
 
 # Get and verify username and password.
 getuserandpass || error "User exited."
