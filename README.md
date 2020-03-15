@@ -1,4 +1,4 @@
-# Luke's Auto-Rice Bootstraping Scripts (LARBS)
+# the Banana Auto-Rice Bootstraping Scripts (BARBS)
 
 
 ## Installation:
@@ -6,11 +6,13 @@
 On an Arch based distribution as root, run the following:
 
 ```
-curl -LO larbs.xyz/larbs.sh
+curl -LO https://raw.githubusercontent.com/BananaDE/BARBS/master/larbs.sh
 sh larbs.sh
 ```
 
 That's it.
+
+The rest of LARBS readme (not modified yet, also check out larbs.xyz):
 
 ## What is LARBS?
 
